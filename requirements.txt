@@ -6,3 +6,7 @@ mistralai
 
 fastapi
 uvicorn
+python-multipart
+sounddevice
+soundfile
+numpy

@@ -11,4 +11,10 @@ __pycache__/
 *.py[cod]
 
 # IDE
-.vscode/
+.vscode/
+
+# Audio files
+*.wav
+*.mp3
+*.m4a
+*.webm
