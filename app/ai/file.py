@@ -1,4 +1,4 @@
-from app.ai.prompt.falltry import fallback
+﻿from app.ai.falltry import fallback
 import os
 
 UPLOAD_DIR = "outputs/"
