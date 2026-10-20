@@ -64,3 +64,17 @@ def gemini_llm(prompt: str):
     )
 
     return response.text
+
+
+class Models:
+    @staticmethod
+    def fallback_chain():
+        return [
+            ("Groq", Groq_llm),
+            ("Mistral", Mistral_llm),
+            ("Gemini", gemini_llm),
+        ]
+
+
+models = Models()
+
